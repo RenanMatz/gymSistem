@@ -20,7 +20,7 @@ namespace gymSistem
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            MySqlConnection consulta = new MySqlConnection("server=localhost; database=gym; uid=root; pwd=etec");
+            MySqlConnection consulta = new MySqlConnection("server=localhost; database=gym; uid=root; pwd=VTK%646W2391382535");
             consulta.Open();
 
             MySqlDataAdapter adapter = new MySqlDataAdapter("select idMaquina as id, nomeMaquina as Nome, tipo, statusMaquina as Status1, cor as Cor, garantia as Garantia from Equipamento", consulta);
